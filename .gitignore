@@ -1,0 +1,36 @@
+# Enterprise RAG - Git Ignore
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+.next/
+out/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Qdrant data (managed by Docker)
+qdrant_storage/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
